@@ -83,3 +83,44 @@ st.write("<h2><p>Output</p></h2>", unsafe_allow_html=True)
 code = '''a = 1
 b = [2, 3, 4, 5]'''
 st.code(code, language='python')
+
+st.header('7. Remove duplicate list items')
+st.write("<h2><p>Do you have duplicate items in your list which you want to remove? You can do that with only one line of code using the set() function.<p></h2>", unsafe_allow_html=True)
+st.header('Example')
+code = '''mylist = [1,1,1,2,2,3,3,4,4,5,6,7,7,8,9]
+newlist = set(mylist)
+print(newlist)'''
+st.code(code, language='python')
+st.write("<h2><p>Output</p></h2>", unsafe_allow_html=True)
+code = '''{1, 2, 3, 4, 5, 6, 7, 8, 9}'''
+st.code(code, language='python')
+
+
+st.header('8. Lambda function')
+st.write("<h2><p>If you need a function that is not very complicated, it can be done easily in one line using lambda. They are also called anonymous functions and are used heavily in data science and web development.<p></h2>", unsafe_allow_html=True)
+st.header('Example')
+st.write("<h2><p>Let’s say you want to write a function to multiply two numbers. Instead of writing a conventional function, you can do that in one line using :<p></h2>", unsafe_allow_html=True)
+code = '''mul = lambda a,b: a*b
+mul(5,6)'''
+st.code(code, language='python')
+st.write("<h2><p>Output</p></h2>", unsafe_allow_html=True)
+code = '''30'''
+st.code(code, language='python')
+
+st.header('10. Use a password in your code')
+st.write("<h2><p>This python trick is amazing for securing your code with a password. We will use the getpass() function from the library getpass which encodes your input. This will prevent anyone from running the code without a password. Isn’t that cool!<p></h2>", unsafe_allow_html=True)
+st.header('Example')
+code = '''from getpass import getpass
+password = getpass(“password: “)
+if password == “abcd”:
+    print(“welcome strnger!”)
+else:
+    print(“wrong password”)'''
+st.code(code, language='python')
+st.write("<h2><p>Output</p></h2>", unsafe_allow_html=True)
+code = '''password: **** [abcd]
+Welcome stranger!
+Password: **** [abdc]
+Wrong password'''
+st.code(code, language='python')
+
