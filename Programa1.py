@@ -2,7 +2,7 @@ import streamlit as st
 st.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier") 
 st.header ("Simple but effective tips for every python lovers")
 st.image ('https://miro.medium.com/max/700/1*5IFgojJ4nU8f0YKTcjWDrg.jpeg')
-st.caption("<h4 style=;'>Photo by Miesha Maiden from Pexels</h4>", unsafe_allow_html=True)
+st.caption("<h4 style='text-align: center';'>Photo by Miesha Maiden from Pexels</h4>", unsafe_allow_html=True)
 st.write("<h2><p>The compactness of Python can make a developer&rsquo;s life a lot easier when writing lines and lines of code. But there are some lesser-known Python tricks that can surprise you with their amazing capabilities.</p></h2>", unsafe_allow_html=True)
 st.write("<h2><p>In today’s article, I will discuss 10 Python tips and tricks that will be really helpful for beginners to write more compact code. Knowing these tips and tricks will definitely save you some valuable time.</p></h2>", unsafe_allow_html=True)
 st.header('1. Walrus operator')
