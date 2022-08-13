@@ -124,7 +124,6 @@ Password: **** [abdc]
 Wrong password'''
 st.code(code, language='python')
 st.write("<h2><p><p>Here is<a href="https://amzn.to/3fxdkJE" rel="noopener ugc nofollow" target="_blank">&nbsp;a book</a>&nbsp;on&nbsp;<strong>Python programming</strong>&nbsp;that I would definitely recommend for all&nbsp;<strong>beginners</strong>.</p></p></h2>", unsafe_allow_html=True)
-
 st.header('Conclusion')
 st.write("<h2><p><p>These were a few amazing Python tips and tricks which will make your work a lot easier while coding. There are many more shortcuts like these that you can explore from the official documentation or any other website.</p><p><strong><em>Note:&nbsp;</em></strong><em>This article contains an affiliate link. This means that if you click on it and choose to buy the resource I linked above, a small portion of your subscription fee will go to me.</em></p><p><em>However, the recommended resource is experienced by me and helped me in my data science career journey.</em></p><p></h2>", unsafe_allow_html=True)
 st.balloons()
