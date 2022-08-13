@@ -2,7 +2,7 @@ import streamlit as st
 st.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier") 
 st.header ("Simple but effective tips for every python lovers")
 st.image ('https://miro.medium.com/max/700/1*5IFgojJ4nU8f0YKTcjWDrg.jpeg')
-st.caption("The compactness of Python can make a developer’s life")
+st.caption("Photo by Miesha Maiden from Pexels")
 
 st.header("this is the markdown")
 st.markdown("this is the header")
