@@ -12,6 +12,7 @@ st.write("<h2><p>If we want to check and print the length of a list:</p></h2>", 
 code = '''Mylist = [1,2,3]
 if(l := len(mylist) > 2)
 print(l)'''
+st.code(code, language='python')
 st.write("<h2><p>Output</p></h2>", unsafe_allow_html=True)
 st.code("3")
 st.header('2. Splitting a string')
@@ -19,6 +20,7 @@ st.write("<h2><p>If you want to split the components of a string into a list you
 st.header('Example')
 code = '''string = “hello world”
 string.split()'''
+st.code(code, language='python')
 st.write("<h2><p>Output</p></h2>", unsafe_allow_html=True)
 st.code("[‘hello’, ‘world’]")
 st.header('3. Reversing a string')
@@ -27,6 +29,7 @@ st.header('Example')
 code = '''str=”hello world!”
 a=str[::-1]
 print(a)'''
+st.code(code, language='python')
 st.write("<h2><p>Output</p></h2>", unsafe_allow_html=True)
 st.code("[!dlrow olleh]")
 st.header('4. Merging two dictionaries')
@@ -36,9 +39,10 @@ code = '''d1 = {“a”: 10, “b”:20}
 d2 = {“c”: 30, “d”:40}
 d3 = {**d1, **d2}
 print(d3)'''
+st.code(code, language='python')
 st.write("<h2><p>Output</p></h2>", unsafe_allow_html=True)
 st.code("{‘a’: 10, ‘b’: 20, ‘c’: 30, ‘d’: 40}")
-st.header('The zip() function')
+st.header('5.The zip() function')
 st.write("<h2><p>The zip() function in python can make your life a lot easier when working with lists and dictionaries. It is used to combine several lists of the same length.<p></h2>", unsafe_allow_html=True)
 st.header('Example')
 code = '''colour = [“red”, “yellow”, “green”]
