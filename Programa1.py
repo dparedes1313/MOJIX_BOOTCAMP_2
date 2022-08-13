@@ -41,11 +41,11 @@ st.code("[!dlrow olleh]")
 st.header('4. Merging two dictionaries')
 st.write("<h2><p>This amazing trick will help you merge two dictionaries with just 1 line of code. We just need to use ** in front of the name of the two dictionaries like below two merge them into a single dictionary:<p></h2>", unsafe_allow_html=True)
 st.header('Example')
-st.code("[‘hello’, ‘world’]")
-st.code("a=str[::-1]")
-st.code('print(a)")')
+code = '''d1 = {“a”: 10, “b”:20}
+d2 = {“c”: 30, “d”:40}
+d3 = {**d1, **d2}
+print(d3)'''
+st.code(code, language='python')
 st.write("<h2><p>Output</p></h2>", unsafe_allow_html=True)
 st.code("[!dlrow olleh]")
-code = '''def hello():
-     print("Hello, Streamlit!")'''
-st.code(code, language='python')
+
