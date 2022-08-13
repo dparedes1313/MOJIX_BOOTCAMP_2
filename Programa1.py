@@ -1,7 +1,5 @@
 import streamlit as st   
-st.balloons()
-st.progress(10)
-st.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier") 
+st.sidebar.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier") 
 st.header ("Simple but effective tips for every python lovers")
 st.image ('https://miro.medium.com/max/700/1*5IFgojJ4nU8f0YKTcjWDrg.jpeg')
 st.caption("<h4 style='text-align: center';'>Photo by Miesha Maiden from Pexels</h4>", unsafe_allow_html=True)
