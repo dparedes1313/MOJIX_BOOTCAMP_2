@@ -1,6 +1,6 @@
 import streamlit as st   
 st.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier") 
-st.title ("Simple but effective tips for every python lovers")
+st.header ("Simple but effective tips for every python lovers")
 st.header("this is the markdown")
 st.markdown("this is the header")
 st.subheader("this is the subheader")
