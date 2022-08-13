@@ -25,11 +25,11 @@ st.code("[‘hello’, ‘world’]")
 st.header('3. Reversing a string')
 st.write("<h2><p>If you want to reverse a given string, you can do that with only one line of code using the negative indexing of the string.<p></h2>", unsafe_allow_html=True)
 st.header('Example')
-st.code("<span data-selectable-paragraph="">str=&rdquo;hello world!&rdquo;<br /></span><span data-selectable-paragraph="">a=str[::-1]<br /></span><span data-selectable-paragraph="">print(a)</span>")
-st.code("string.split()")
-st.code("print(l)")
+st.code(str=”hello world!”)
+st.code("a=str[::-1]")
+st.code('print(a)")')
 st.write("<h2><p>Output</p></h2>", unsafe_allow_html=True)
-st.code("[‘hello’, ‘world’]")
+st.code("[!dlrow olleh]")
 
 
 
