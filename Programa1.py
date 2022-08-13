@@ -1,6 +1,6 @@
 import streamlit as st   
 st.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier") 
-st.subheader ("Simple but effective tips for every python lovers")
+st.header ("Simple but effective tips for every python lovers")
 st.image ('https://miro.medium.com/max/700/1*5IFgojJ4nU8f0YKTcjWDrg.jpeg')
 st.caption("The compactness of Python can make a developer’s life")
 
