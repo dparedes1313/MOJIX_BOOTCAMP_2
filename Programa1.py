@@ -1,6 +1,15 @@
 import streamlit as st   
 st.sidebar.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier") 
 st.sidebar.header('1. Walrus operator')
+st.sidebar.header('2. Splitting a string')
+st.sidebar.header('3. Reversing a string')
+st.sidebar.header('4. Merging two dictionaries')
+st.sidebar.header('5.The zip() function')
+st.sidebar.header('6. Assigning multiple list values to a variable')
+st.sidebar.header('7. Remove duplicate list items')
+st.sidebar.header('8. Lambda function')
+st.sidebar.header('1. Walrus operator')
+st.sidebar.header('10. Use a password in your code')
 st.header ("Simple but effective tips for every python lovers")
 st.image ('https://miro.medium.com/max/700/1*5IFgojJ4nU8f0YKTcjWDrg.jpeg')
 st.caption("<h4 style='text-align: center';'>Photo by Miesha Maiden from Pexels</h4>", unsafe_allow_html=True)
@@ -106,6 +115,21 @@ mul(5,6)'''
 st.code(code, language='python')
 st.write("<h2><p>Output</p></h2>", unsafe_allow_html=True)
 code = '''30'''
+st.code(code, language='python')
+ #####################################################################
+
+st.header('9. Swapping variable value')
+st.write("<h2><p>One of the first programs that we learn while learning about variables is swapping the values of two variables. In python you can achieve that with one line of code:<p></h2>", unsafe_allow_html=True)
+st.header('Example')
+code = '''a = 100
+b = 200
+a,b = b,a
+print(f’a = ‘,a)
+print(f’b = ‘,b)'''
+st.code(code, language='python')
+st.write("<h2><p>Output</p></h2>", unsafe_allow_html=True)
+code = '''a = 200
+b = 100'''
 st.code(code, language='python')
  #####################################################################
 st.header('10. Use a password in your code')
