@@ -1,5 +1,5 @@
 import streamlit as st   
-st.title("Hello GeeksForGeeks !!!") 
+st.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier") 
 st.title ("this is the app title")
 st.header("this is the markdown")
 st.markdown("this is the header")
