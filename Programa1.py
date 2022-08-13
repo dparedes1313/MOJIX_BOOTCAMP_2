@@ -1,8 +1,6 @@
 import streamlit as st   
 st.balloons()
 st.progress(10)
-with st.spinner('Wait for it...'):
-    time.sleep(10)
 st.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier") 
 st.header ("Simple but effective tips for every python lovers")
 st.image ('https://miro.medium.com/max/700/1*5IFgojJ4nU8f0YKTcjWDrg.jpeg')
