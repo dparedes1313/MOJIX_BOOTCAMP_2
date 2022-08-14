@@ -6,12 +6,6 @@ st.sidebar.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier
 page_names = ['Contenido','Contacto']
 page = st.sidebar.radio('navigation', page_names) 
 if page = 'Contenido':
-   st.sidebar.subheader ('Welcome to the Checkbox page!')
-   st.sidebar.write("Nice to see You! :wave:")
-   check = st.sidebar.checkbox("Click Here")
-    st.sidebar.write('state of the checkbox',check)
-
-else:       
 st.sidebar.header('1. Walrus operator')
 st.sidebar.header('2. Splitting a string')
 st.sidebar.header('3. Reversing a string')
@@ -22,10 +16,9 @@ st.sidebar.header('7. Remove duplicate list items')
 st.sidebar.header('8. Lambda function')
 st.sidebar.header('9. Swapping variable value')
 st.sidebar.header('10. Use a password in your code')
+ 
 
-
-#st.sidebar.write("The Variable 'Page' returns:**",page)
-
+else:       
 
 # Using object notation
 add_selectbox = st.sidebar.selectbox(
