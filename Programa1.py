@@ -12,7 +12,7 @@ st.sidebar.header('8. Lambda function')
 st.sidebar.header('9. Swapping variable value')
 st.sidebar.header('10. Use a password in your code')
      
-st.sidebar.title("contacto")
+st.sidebar.title("Contact")
 # Using object notation
 add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?",
