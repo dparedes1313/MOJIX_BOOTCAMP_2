@@ -24,6 +24,13 @@ add_selectbox = st.sidebar.selectbox(
 st.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier")
 st.header ("Simple but effective tips for every python lovers")
 st.image ('https://miro.medium.com/max/700/1*5IFgojJ4nU8f0YKTcjWDrg.jpeg')
+with open("https://miro.medium.com/max/700/1*5IFgojJ4nU8f0YKTcjWDrg.jpeg", "rb") as file:
+     btn = st.download_button(
+             label="Download image",
+             data=file,
+             file_name="https://miro.medium.com/max/700/1*5IFgojJ4nU8f0YKTcjWDrg.jpeg",
+             mime="image/png"
+           )
 st.caption("<h4 style='text-align: center';'>Photo by Miesha Maiden from Pexels</h4>", unsafe_allow_html=True)
 st.write("<h2><p>The compactness of Python can make a developer&rsquo;s life a lot easier when writing lines and lines of code. But there are some lesser-known Python tricks that can surprise you with their amazing capabilities.</p></h2>", unsafe_allow_html=True)
 st.write("<h2><p>In today’s article, I will discuss 10 Python tips and tricks that will be really helpful for beginners to write more compact code. Knowing these tips and tricks will definitely save you some valuable time.</p></h2>", unsafe_allow_html=True)
