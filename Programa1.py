@@ -1,6 +1,7 @@
 import streamlit as st   
 st.sidebar.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier") 
-st.sidebar.checkbox()
+st.sidebar.checkbox('contenido')
+st.sidebar.checkbox('contacto')
 st.sidebar.header('1. Walrus operator')
 st.sidebar.button('click')
 st.sidebar.header('2. Splitting a string')
