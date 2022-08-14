@@ -3,14 +3,14 @@ st.sidebar.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier
 st.sidebar.checkbox('contenido')
 st.sidebar.checkbox('contacto')
 page_names = ['Contenido','Contacto']
-page = st.radio('navigation', page_names) 
-st.write("The Variable 'Page' returns:**",page)
+page = st.sidebar.radio('navigation', page_names) 
+st.sidebar.write("The Variable 'Page' returns:**",page)
 
 if page = 'Contenido':
-   st.subheader ('Welcome to the Checkbox page!')
-   st.write('Nice to see You! :wave:')
-   check = st.checkbox('Click Here')
-    st.write('state of the checkbox',check)
+   st.sidebar.subheader ('Welcome to the Checkbox page!')
+   st.sidebar.write('Nice to see You! :wave:')
+   check = st.sidebar.checkbox('Click Here')
+    st.sidebar.write('state of the checkbox',check)
 
 else:
     st.subheader('Welcome Contact Page')
