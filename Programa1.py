@@ -1,11 +1,9 @@
 import streamlit as st  
 ####SIDE BAR ################################################################# 
 st.sidebar.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier")
-##st.sidebar.checkbox('Contenido')
-##st.sidebar.checkbox('Contacto')
 page_names = ['Contenido','Contacto']
 page = st.sidebar.radio('navigation', page_names) 
-if page = 'Contenido':
+if page = 'Contenido' :
 st.sidebar.header('1. Walrus operator')
 st.sidebar.header('2. Splitting a string')
 st.sidebar.header('3. Reversing a string')
