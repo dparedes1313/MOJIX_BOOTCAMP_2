@@ -1,6 +1,6 @@
 import streamlit as st   
 st.sidebar.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier") 
-st.sidebar.header('1. Walrus operator')
+
 st.sidebar.button('click')
 st.sidebar.header('2. Splitting a string')
 st.sidebar.header('3. Reversing a string')
@@ -18,6 +18,7 @@ st.caption("<h4 style='text-align: center';'>Photo by Miesha Maiden from Pexels<
 st.write("<h2><p>The compactness of Python can make a developer&rsquo;s life a lot easier when writing lines and lines of code. But there are some lesser-known Python tricks that can surprise you with their amazing capabilities.</p></h2>", unsafe_allow_html=True)
 st.write("<h2><p>In today’s article, I will discuss 10 Python tips and tricks that will be really helpful for beginners to write more compact code. Knowing these tips and tricks will definitely save you some valuable time.</p></h2>", unsafe_allow_html=True)
  #####################################################################
+st.sidebar.header('1. Walrus operator')
 st.header('1. Walrus operator')
 st.write("<h2><p>The&nbsp;<code><strong>Walrus</strong></code><strong>&nbsp;or&nbsp;</strong><code><strong>:=</strong></code>&nbsp;operator is one of the latest additions to python 3.8. It is an assignment operator that lets you assign value to a variable within an expression like conditional statements, loops, etc.</p></h2>", unsafe_allow_html=True)
 st.header('Example')
