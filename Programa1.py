@@ -6,7 +6,7 @@ page_names = ['Contenido','Contacto']
 page = st.sidebar.radio('navigation', page_names) 
 st.sidebar.write("The Variable 'Page' returns:**",page)
 
-if page = 'Contenido':
+if page = ('Contenido':)
    st.sidebar.subheader ('Welcome to the Checkbox page!')
    st.sidebar.write('Nice to see You! :wave:')
    check = st.sidebar.checkbox('Click Here')
