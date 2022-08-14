@@ -1,6 +1,8 @@
 import streamlit as st  
 ####SIDE BAR ################################################################# 
 st.sidebar.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier")
+st.sidebar.checkbox('contenido')
+st.sidebar.checkbox('contacto')
 # Using object notation
 add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?",
@@ -13,8 +15,6 @@ with st.sidebar:
         "Choose a shipping method",
         ("Standard (5-15 days)", "Express (2-5 days)")
     ) 
-#st.sidebar.checkbox('contenido')
-#st.sidebar.checkbox('contacto')
 
 ####MAIN PAGE #################################################################
 st.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier")
