@@ -151,3 +151,12 @@ Wrong password'''
 st.code(code, language='python')
 st.header('Conclusion')
 st.write("<h2><p><p> These were a few amazing Python tips and tricks which will make your work a lot easier while coding. There are many more shortcuts like these that you can explore from the official documentation or any other website.</p><p><strong><em>Note:&nbsp;</em></strong><em>This article contains an affiliate link. This means that if you click on it and choose to buy the resource I linked above, a small portion of your subscription fee will go to me.</em></p><p><em>However, the recommended resource is experienced by me and helped me in my data science career journey.</em></p><p></h2>", unsafe_allow_html=True)
+
+
+st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', icon_size)
+st_button('youtube', 'https://youtube.com/codingprofessor', 'Coding Professor YouTube channel', icon_size)
+st_button('medium', 'https://data-professor.medium.com/', 'Read my Blogs', icon_size)
+st_button('twitter', 'https://twitter.com/thedataprof/', 'Follow me on Twitter', icon_size)
+st_button('linkedin', 'https://www.linkedin.com/in/chanin-nantasenamat/', 'Follow me on LinkedIn', icon_size)
+st_button('newsletter', 'https://sendfox.com/dataprofessor/', 'Sign up for my Newsletter', icon_size)
+st_button('cup', 'https://www.buymeacoffee.com/dataprofessor/', 'Buy me a Coffee', icon_size)
