@@ -1,8 +1,8 @@
 import streamlit as st  
 ####SIDE BAR ################################################################# 
 st.sidebar.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier") 
-st.sidebar.checkbox('contenido')
-st.sidebar.checkbox('contacto')
+#st.sidebar.checkbox('contenido')
+#st.sidebar.checkbox('contacto')
 page_names = ['Contenido','Contacto']
 page = st.sidebar.radio('navigation', page_names) 
 st.sidebar.write("The Variable 'Page' returns:**",page)
