@@ -15,27 +15,7 @@ with st.sidebar:
     ) 
 #st.sidebar.checkbox('contenido')
 #st.sidebar.checkbox('contacto')
-page_names = ['Contenido','Contacto']
-page = st.sidebar.radio('navigation', page_names) 
-st.sidebar.write("The Variable 'Page' returns:**",page)
 
-if page = 'Contenido':
-   st.sidebar.subheader ('Welcome to the Checkbox page!')
-   st.sidebar.write("Nice to see You! :wave:")
-   check = st.sidebar.checkbox("Click Here")
-    st.sidebar.write('state of the checkbox',check)
-
-else:       
-st.sidebar.header('1. Walrus operator')
-st.sidebar.header('2. Splitting a string')
-st.sidebar.header('3. Reversing a string')
-st.sidebar.header('4. Merging two dictionaries')
-st.sidebar.header('5.The zip() function')
-st.sidebar.header('6. Assigning multiple list values to a variable')
-st.sidebar.header('7. Remove duplicate list items')
-st.sidebar.header('8. Lambda function')
-st.sidebar.header('9. Swapping variable value')
-st.sidebar.header('10. Use a password in your code')
 ####MAIN PAGE #################################################################
 st.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier")
 st.header ("Simple but effective tips for every python lovers")
