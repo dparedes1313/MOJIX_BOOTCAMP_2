@@ -1,6 +1,6 @@
 import streamlit as st   
 st.sidebar.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier") 
-st.sidebar.buton('1. Walrus operator')
+st.sidebar.header('1. Walrus operator')
 st.sidebar.header('2. Splitting a string')
 st.sidebar.header('3. Reversing a string')
 st.sidebar.header('4. Merging two dictionaries')
