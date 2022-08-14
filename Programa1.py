@@ -6,7 +6,7 @@ page_names = ['Contenido','Contacto']
 page = st.radio('navigation', page_names) 
 st.write("The Variable 'Page' returns:**",page)
 
-if page= 'Checkbox':
+if page = 'Checkbox':
    st.subheader ('Welcome to the Checkbox page!')
    st.write('Nice to see You! :wave:')
    check = st.checkbox('Click Here')
