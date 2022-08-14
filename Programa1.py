@@ -1,8 +1,11 @@
 import streamlit as st  
 ####SIDE BAR ################################################################# 
 st.sidebar.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier")
-st.sidebar.checkbox('contenido')
-st.sidebar.checkbox('contacto')
+st.sidebar.checkbox('Contenido')
+st.sidebar.checkbox('Contacto')
+
+if st.sidebar.checkbox = 'Contenido':
+    
 # Using object notation
 add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?",
