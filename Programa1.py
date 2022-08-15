@@ -10,7 +10,7 @@ st.sidebar.header('6. Assigning multiple list values to a variable')
 st.sidebar.header('7. Remove duplicate list items')
 st.sidebar.header('8. Lambda function')
 st.sidebar.header('9. Swapping variable value')
-st.sidebar.header('10. Use a password in your code')
+st.sidebar.header('10. Use a password in your codea')
      
 st.sidebar.title("Contact")
 # Using object notation
@@ -18,8 +18,6 @@ add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?",
     ("Email", "Home phone", "Mobile phone")
 )
-
-
 ####MAIN PAGE #################################################################
 st.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier")
 st.header ("Simple but effective tips for every python lovers")
