@@ -7,4 +7,4 @@ uploaded_file = st.file_uploader("Choose a file")
 if uploaded_file is not None:
   df = pd.read_csv(uploaded_file)
  # st.dataframe(df, 200, 100)
-  st.write(df.head())
+  st.write(df.groupby(["continent", "location"]).sum()[["new_cases", "new_deaths"]])
