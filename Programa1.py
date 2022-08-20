@@ -1,4 +1,8 @@
-import streamlit as st  
+import streamlit as st 
+import pandas as pd
+import streamlit as st
+
+st.title("Hello world!") 
 ####SIDE BAR ################################################################# 
 st.sidebar.title("100 Cool Beginner Python Tricks That Will Make Your Life Easier")
 st.sidebar.header('1. Walrus operator')
