@@ -1,21 +1,24 @@
+import matplotlib.pyplot as plt
 import pandas as pd
 import streamlit as st
 
 st.title("Hello world!")
 
-df = pd.DataFrame(
-    np.random.randn(50, 20),
-    columns=('col %d' % i for i in range(20)))
+uploaded_file = st.file_uploader("Choose a file")
+if uploaded_file is not None:
+  df = pd.read_csv(uploaded_file)
+  st.write(df)
 
-uploaded_files = st.file_uploader("Choose a CSV file", accept_multiple_files=True)
-for uploaded_file in uploaded_files:
-    bytes_data = uploaded_file.read()
-    st.write("filename:", uploaded_file.name)
-    st.write(bytes_data)
-    
-
-    df = pd.DataFrame(
-    np.random.randn(50, 20),
-    columns=('col %d' % i for i in range(20)))
-
-st.dataframe(df)  # Same as st.write(df)
+  # Add some matplotlib code !
+  fig, ax = plt.subplots()
+  df.hist(
+    bins=8,
+    column="Age",
+    grid=False,
+    figsize=(8, 8),
+    color="#86bf91",
+    zorder=2,
+    rwidth=0.9,
+    ax=ax,
+  )
+  st.write(fig)
