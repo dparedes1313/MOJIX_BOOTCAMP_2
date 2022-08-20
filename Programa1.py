@@ -160,16 +160,3 @@ Wrong password'''
 st.code(code, language='python')
 st.header('Conclusion')
 st.write("<h2><p><p> These were a few amazing Python tips and tricks which will make your work a lot easier while coding. There are many more shortcuts like these that you can explore from the official documentation or any other website.</p><p><strong><em>Note:&nbsp;</em></strong><em>This article contains an affiliate link. This means that if you click on it and choose to buy the resource I linked above, a small portion of your subscription fee will go to me.</em></p><p><em>However, the recommended resource is experienced by me and helped me in my data science career journey.</em></p><p></h2>", unsafe_allow_html=True)
-
-
-import numpy as np
-import pandas as pd
-import altair as alt
-​
-df = pd.DataFrame(
-   np.random.randn(500, 3),
-   columns=['x','y','z'])
-​
-c = alt.Chart(df).mark_circle().encode(
-   x='x' , 'y'=y , size='z', color='z', tooltip=['x', 'y', 'z'])
-st.altair_chart(c, use_container_width=True)
