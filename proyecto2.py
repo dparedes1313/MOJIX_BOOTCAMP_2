@@ -1,8 +1,8 @@
 
-import pandas as pd
-array = np.array([[50, 20], [50, 20]]) 
+import pandas as pd 
 import streamlit as st
 
+array=np
 st.title("Hello world!")
 
 uploaded_files = st.file_uploader("Choose a CSV file", accept_multiple_files=True)
