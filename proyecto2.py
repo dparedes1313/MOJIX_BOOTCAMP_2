@@ -1,7 +1,4 @@
 import streamlit as st
-####SIDE BAR ################################################################# 
-
-###################################################################
 import matplotlib.pyplot as plt
 import pandas as pd
 import streamlit as st
