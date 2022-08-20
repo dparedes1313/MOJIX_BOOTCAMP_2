@@ -1,22 +1,28 @@
 import streamlit as st
 ####SIDE BAR ################################################################# 
-st.sidebar.title("Data Analisys")
 
-uploaded_file = st.sidebar.file_uploader("Choose a file")
-if uploaded_file is not None:
-     # To read file as bytes:
-     bytes_data = uploaded_file.getvalue()
-     st.sidebar.write(bytes_data)
-
-     # To convert to a string based IO:
-     stringio = StringIO(uploaded_file.getvalue().decode("utf-8"))
-     st.write(stringio)
-
-     # To read file as string:
-     string_data = stringio.read()
-     st.write(string_data)
-
-     # Can be used wherever a "file-like" object is accepted:
-     dataframe = pd.read_csv(uploaded_file)
-     st.write(dataframe)
 ###################################################################
+import matplotlib.pyplot as plt
+import pandas as pd
+import streamlit as st
+
+st.title("Hello world!")
+
+uploaded_file = st.file_uploader("Choose a file")
+if uploaded_file is not None:
+  df = pd.read_csv(uploaded_file)
+  st.write(df)
+
+  # Add some matplotlib code !
+  fig, ax = plt.subplots()
+  df.hist(
+    bins=8,
+    column="Age",
+    grid=False,
+    figsize=(8, 8),
+    color="#86bf91",
+    zorder=2,
+    rwidth=0.9,
+    ax=ax,
+  )
+  st.write(fig)
