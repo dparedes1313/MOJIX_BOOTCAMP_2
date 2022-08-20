@@ -5,4 +5,4 @@ for uploaded_file in uploaded_files:
     st.write("filename:", uploaded_file.name)
     st.write(bytes_data)
 
-st.write(df())
+#st.write(df())
